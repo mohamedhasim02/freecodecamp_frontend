@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #7743DB;
+    color: #FFFBC1;
+}
+
+.App {
+    width: 100%;
+}
+
+
+.title {
+    text-align: center;
+    margin: 75px;
+    font-size: 40px;
+}
+
+.contenedor-length {
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px;
+   justify-content: center;
+    font-size: 25px;
+    margin: 50px auto;
+    background-color: #3B3486;
+}
+
+
+.contenedor-break {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+    
+}
+
+#break-decrement, #break-increment, #session-decrement, #session-increment {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    padding: 8px;
+    background-color: #3B3486;
+    border-radius: 5px;
+}
+
+#break-length, #session-length {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contenedor-session {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#break-label, #session-label {
+    background-color: #3B3486;
+    font-size: 30px;
+    margin-right: 25px;
+    margin-left: 25px; 
+    font-weight: 700;
+}
+
+
+
+.contenedor-tiempo {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: ;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenedor-btn {
+    width: 35%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+#start_stop, #reset  {
+    width: 70%;
+    margin: 15px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #3B3486;
+}
+
